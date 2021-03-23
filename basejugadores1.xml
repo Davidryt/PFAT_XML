@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+
+<jugadores>
+	<jugador>
+		<username realname="DavidRico">
+			Davidryt
+		</username>
+		<password pass="asdfghjkl"></password>
+		<level ammount="150"></level>
+		<elo>
+			SILVER
+		</elo>
+		<campeones champname="Teemo" role="Assassin" pos="Top">
+			<Abilities passive="Guerrilla Warfare" source="Mana">
+				<Q nameq="Blinding Dart" ccq="Blind" descq= "Majestic dart that when thrown leaves you shocked">
+					<Cooldown Time="12"></Cooldown>
+					<AP number="40"></AP>
+				</Q>
+				<W namew="Move Quick" ccw="None" descw= "added movement speed">
+					<Cooldown Time="10"></Cooldown>
+				</W>
+				<E namee="Toxic Shot" cce="None" desce= "your basics give poisons">
+					<Cooldown Time="0"></Cooldown>
+					<AP number="20"></AP>
+				</E>
+				<R namer="Noxious Trap" ccr="Slow" descr= "mushrooms that when you step on them say bye">
+					<Cooldown Time="30"></Cooldown>
+					<AP number="100"></AP>
+				</R>
+			</Abilities>
+			<Stats Life="528" Armor="24.3" MagicResist="30" MovementSpeed="330" Damage="54"></Stats>
+		</campeones>
+		<campeones champname="Janna" role="Support" pos="Sup">
+			<Abilities passive="Tail Wind" source="Mana">
+				<Q nameq="Howling Gale" ccq="Air" descq="twister">
+					<Cooldown Time="15"></Cooldown>
+					<AP number="40"></AP>
+				</Q>
+				<W namew="Zephyr" ccw="Slow" descw="bird that throws it at your head">
+					<Cooldown Time="6"></Cooldown>
+					<AP number="60"></AP>
+				</W>
+				<E namee="Eye of the Storm" cce="None" desce="shield">
+					<Cooldown Time="9"></Cooldown>
+				</E>
+				<R namer="Monsoon" ccr="Air" descr="blows very hard">
+					<Cooldown Time="75"></Cooldown>
+				</R>
+			</Abilities>
+			<Stats Life="500" Armor="28" MagicResist="30" MovementSpeed="315" Damage="46"></Stats>
+		</campeones>
+		<campeones champname="Ekko" role="Mage" >
+			<Abilities passive="Z-Drive Resonance" source="Mana" mark="Y">
+				<Q nameq="Timewinder" ccq="Slow" descq="Ekko throws his device to enemy, slowing and marking them">
+					<Cooldown Time="15"></Cooldown>
+					<AP number="50"></AP>
+				</Q>
+				<W namew="Parallel Convergence" ccw="Stun" descw="Ekko sets a time trap making realities converge">
+					<Cooldown Time="20"></Cooldown>
+				</W>
+				<E namee="Phase Dive" cce="None" desce="Ekko alters his own temporal phase to dash in one direction">
+					<Cooldown Time="8"></Cooldown>
+				</E>
+				<R namer="Chronobreak" ccr="None" descr="Ekko shatters time and turns back time traveling back 4 seconds">
+					<Cooldown Time="55"></Cooldown>
+					<AP number="200"></AP>
+				</R>
+			</Abilities>
+			<Stats Life="585" Armor="32" MagicResist="32" MovementSpeed="340" Damage="58"></Stats>
+		</campeones>
+		<campeones champname="Nunu and Willump" role="Tank" pos="Jungle">
+			<Abilities passive="Call of the Freljord" source="Mana" mark="Y">
+				<Q nameq="Consume" ccq="None" descq="bites an enemy , steals life">
+					<Cooldown Time="12"></Cooldown>
+					<AP number="10"></AP>
+				</Q>
+				<W namew="Biggest Snowball Ever!" ccw="Stun" descw="It makes a snowball that gets bigger">
+					<Cooldown Time="20"></Cooldown>
+				</W>
+				<E namee="Snowball Barrage" cce="Slow" desce= "throws you snowball that hurts">
+					<Cooldown Time="0"></Cooldown>
+					<AP number="15"></AP>
+				</E>
+				<R namer="Absolute Zero" ccr="Slow" descr= "begins to drop cold through the pores">
+					<Cooldown Time="30"></Cooldown>
+					<AP number="400"></AP>
+				</R>
+			</Abilities>
+			<Stats Life="570" Armor="32" MagicResist="32.1" MovementSpeed="345" Damage="61"></Stats>
+		</campeones>
+		<campeones champname="Sett" role="Fighter">
+			<Abilities passive="Pit Grit" source="None" mark="N">
+				<Q nameq="Knuckle Down" ccq="None">
+					<Cooldown Time="12"></Cooldown>
+					<AP number="30"></AP>
+				</Q>
+				<W namew="Haymaker" ccw="None">
+					<Cooldown Time="10"></Cooldown>
+					<AP number="% if your life (+ True Damage)"></AP>
+				</W>
+				<E namee="Facebreaker" cce="Stun">
+					<Cooldown Time="0"></Cooldown>
+				</E>
+				<R namer="The Show Stopper" ccr="Grab" descr="hooks you up">
+					<Cooldown Time="60"></Cooldown>
+					<AP number="% of enemy life"></AP>
+				</R>
+			</Abilities>
+			<Stats Life="600" Armor="33.3" MagicResist="32" MovementSpeed="340" Damage = "60"></Stats>
+		</campeones>
+	</jugador>
+</jugadores>

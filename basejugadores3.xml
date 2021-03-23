@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+
+<jugadores>
+  <jugador>
+    <username realname="Jhonny">
+        PepeelCrack 
+    </username>
+	<password pass="niidea"></password>
+	<level ammount="41"></level>
+    <campeones champname="Jayce"  role= "Fighter">
+		<Abilities passive= "Hextech Capacitor" source="Mana" > 
+			<Q nameq="To the Skies! " ccq="None" descq= "Strong blow">
+				<Cooldown Time="10"></Cooldown>
+				<AP number="15"></AP>
+			</Q>
+			<W namew="Lightning Field " ccw="None" descw = "Produces a magnetic field around you ">
+				<Cooldown Time="15"></Cooldown>
+				<AP number="18"></AP>
+			</W>
+			<E namee="Thundering Blow " cce="Slow" desce = "Generates an electrical barrier">
+				<Cooldown Time="10"></Cooldown>
+				<AP number="15"></AP>
+			</E>
+			<R namer="Mercury Cannon" ccr="None" descr = "Allows you to change skills">
+				<Cooldown Time="10"></Cooldown>
+				<AP number="15"></AP>
+			</R>
+		</Abilities>
+		<Stats Life="560" PhysicalDamage="54" Armor="27 " MagicResist="30" MovementSpeed="335" CooldownReduction="18" Damage="66"></Stats>
+	</campeones>
+	 <campeones champname="Tristana" role ="Marksman">
+		<Abilities passive= "Nimble Fighter" source="Mana"> 
+			<Q nameq="Rapid Fire" ccq="None" descq= "Very strong cannon">
+				<Cooldown Time="5"></Cooldown>
+				<AP number="20"></AP>
+			</Q>
+			<W namew="Rocket Jump" ccw="None" descw = "Jump with very good distance">
+				<Cooldown Time="10"></Cooldown>
+				<AP number="15"></AP>
+			</W>
+			<E namee="Explosive Charge" cce="None" desce = "Throw a mini bombita">
+				<Cooldown Time="12"></Cooldown>
+				<AP number="29"></AP>
+			</E>
+			<R namer="Buster Shot" ccr="None" descr = "Combo">
+				<Cooldown Time="15"></Cooldown>
+				<AP number="35"></AP>
+			</R>
+		</Abilities>
+		<Stats Life="559" PhysicalDamage="61" Armor="26" MagicResist="30" MovementSpeed="325" CooldownReduction="10" Damage="58"></Stats>
+	</campeones>
+  </jugador>
+  <jugador>
+    <username realname="Unknown">
+        frumsreverse 
+    </username>
+	<password pass="yasuonoobchamp"></password>
+	<level ammount="20"></level>
+    <campeones champname="Teemo" role="Assassin" pos="Top">
+		<Abilities passive="Guerrilla Warfare" source="Mana">
+			<Q nameq="Blinding Dart" ccq="Blind" descq= "Majestic dart that when thrown leaves you shocked" >
+				<Cooldown Time="12"></Cooldown>
+				<AP number="40"></AP>
+			</Q>
+			<W namew="Move Quick" ccw="None" descw= "added movement speed">
+				<Cooldown Time="10"></Cooldown>
+			</W>
+			<E namee="Toxic Shot" cce="None" desce= "your basics give poisons">
+				<Cooldown Time="0"></Cooldown>
+				<AP number="20"></AP>
+			</E>
+			<R namer="Noxious Trap" ccr="Slow" descr= "mushrooms that when you step on them say bye">
+				<Cooldown Time="30"></Cooldown>
+				<AP number="100"></AP>
+			</R>
+		</Abilities>
+		<Stats Life="528" Armor="24.3" MagicResist="30" MovementSpeed="330" Damage="54"></Stats>
+	</campeones>
+  </jugador>
+</jugadores>

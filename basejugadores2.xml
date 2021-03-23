@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+
+<jugadores>
+  <jugador>
+    <username realname="JosuCaballero">
+        Josuelmalote 
+    </username>
+	<password pass="sevenkingdowns"></password>
+	<level ammount="41"></level>
+	<elo>
+		UNRANKED
+	</elo>
+    <campeones champname="Garen"  role= "Fighter">
+		<Abilities passive= "Perseverance" source="None" > 
+			<Q nameq="Decisive Strike" descq= "Very strong and impactful sword" ccq="Silence">
+				<Cooldown Time="10"></Cooldown>
+			</Q>
+			<W namew="Courage" descw = "Shield that frees you from any basic attack"  ccw="None">
+				<Cooldown Time="15"></Cooldown>
+			</W>
+			<E namee="Juggment" desce = "Blades that just touch you chills" cce="None">
+				<Cooldown Time="10"></Cooldown>
+			</E>
+			<R namer="Demacian Justice" descr = "Excessively strong and disproportionate sword strike" ccr="None">
+				<Cooldown Time="10"></Cooldown>
+			</R>
+		</Abilities>
+		<Stats Life="620" PhysicalDamage="66" Armor="36 " MagicResist="32.1" MovementSpeed="340" CooldownReduction="16" Damage="66"></Stats>
+	</campeones>
+	 <campeones champname="Fizz" role ="Assassin">
+		<Abilities passive= "Nimble Fighter" source="Mana"> 
+			<Q nameq="Urchin Strike" descq= "Elegant punch " ccq="Silence">
+				<Cooldown Time="5"></Cooldown>
+				<AP number="20"></AP>
+			</Q>
+			<W namew="Seastone Trident" descw = "His touches leave you touched" ccw="Root">
+				<Cooldown Time="10"></Cooldown>
+				<AP number="15"></AP>
+			</W>
+			<E namee="Playful" desce = "His jump is quite shocking" cce="Slow">
+				<Cooldown Time="12"></Cooldown>
+				<AP number="29"></AP>
+			</E>
+			<R namer="Chum the Waters" descr = "Throw a shark out of the sea" ccr="Blind">
+				<Cooldown Time="15"></Cooldown>
+				<AP number="35"></AP>
+			</R>
+		</Abilities>
+		<Stats Life="570" PhysicalDamage="58" Armor="22.4" MagicResist="32.1" MovementSpeed="335" CooldownReduction="10" Damage="58"></Stats>
+	</campeones>
+  </jugador>
+</jugadores>

@@ -1,0 +1,47 @@
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (username,password,level,elo?,campeones+)>
+<!ELEMENT username (#PCDATA) >
+<!ELEMENT password EMPTY>
+<!ELEMENT level EMPTY >
+<!ELEMENT elo (#PCDATA) >
+<!ELEMENT campeones (Abilities, Stats) >
+<!ELEMENT Stats EMPTY >
+<!ELEMENT Abilities (Q,W,E,R) >
+<!ELEMENT Q (Cooldown,AP?) >
+<!ELEMENT W (Cooldown,AP?) >
+<!ELEMENT E (Cooldown,AP?) >
+<!ELEMENT R (Cooldown,AP?) >
+<!ELEMENT Cooldown EMPTY >
+<!ELEMENT AP EMPTY >
+
+<!ATTLIST Stats Life CDATA #REQUIRED>
+<!ATTLIST Stats MagicDamage CDATA "0">
+<!ATTLIST Stats PhysicalDamage CDATA "0">
+<!ATTLIST Stats Armor CDATA "0">
+<!ATTLIST Stats MagicResist CDATA "0">
+<!ATTLIST Stats MovementSpeed CDATA #REQUIRED>
+<!ATTLIST Stats CooldownReduction CDATA "0">
+<!ATTLIST Stats Damage CDATA #REQUIRED>
+<!ATTLIST Cooldown Time CDATA #REQUIRED>
+<!ATTLIST AP number CDATA #IMPLIED>
+<!ATTLIST Q nameq CDATA #REQUIRED>
+<!ATTLIST Q descq CDATA #IMPLIED>
+<!ATTLIST Q ccq (Stun|Silence|Root|Slow|Grab|Blind|Air|None) #REQUIRED>
+<!ATTLIST W namew CDATA #REQUIRED>
+<!ATTLIST W descw CDATA #IMPLIED>
+<!ATTLIST W ccw (Stun|Silence|Root|Slow|Grab|Blind|Air|None) #REQUIRED>
+<!ATTLIST E namee CDATA #REQUIRED>
+<!ATTLIST E desce CDATA #IMPLIED>
+<!ATTLIST E cce (Stun|Silence|Root|Slow|Grab|Blind|Air|None) #REQUIRED>
+<!ATTLIST R namer CDATA #REQUIRED>
+<!ATTLIST R descr CDATA #IMPLIED>
+<!ATTLIST R ccr (Stun|Silence|Root|Slow|Grab|Blind|Air|None) #REQUIRED>
+<!ATTLIST level ammount CDATA "0">
+<!ATTLIST password pass CDATA #REQUIRED>
+<!ATTLIST Abilities passive CDATA #REQUIRED>
+<!ATTLIST Abilities source (Mana|Energy|Fury|None) #REQUIRED>
+<!ATTLIST Abilities mark (Y|N) #IMPLIED>
+<!ATTLIST username realname CDATA #REQUIRED>
+<!ATTLIST campeones champname CDATA #REQUIRED>
+<!ATTLIST campeones pos (Top|Jungle|Mid|Bot|Sup) #IMPLIED>
+<!ATTLIST campeones role (Assassin|Mage|Support|Marksman|Fighter|Tank) #REQUIRED>
